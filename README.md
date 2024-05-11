@@ -6,8 +6,10 @@ This repository contains an implementation of a Conditional Generative Adversari
 
 In a traditional GAN, the generator generates samples from random noise vectors. In a CGAN, the generator also takes additional conditioning information as input, such as class labels. This allows for the generation of samples conditioned on specific attributes.
 
+## Files
+
+1. `conditional_gan.ipynb`: Implementation of a CGAN using TensorFlow for generating conditional synthetic data.
 
 ## Usage
 
-The files contains the implementation of the CGAN model. To train the model and generate conditional synthetic data, simply execute the Python script:
-
+The `conditional_gan.py` file contains the implementation of the CGAN model. To train the model and generate conditional synthetic data, simply execute the Python script:
